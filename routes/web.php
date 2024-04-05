@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $saluto = "Ciao da Laravel";
+
+    // utilizziamo la funzione compact per passare delle variabili
+    return view('home', compact("saluto"));
 });
+
+Route::get('/image', function () {
+    return view("image");
+})->name('image');
