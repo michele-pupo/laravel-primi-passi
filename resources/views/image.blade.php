@@ -8,8 +8,8 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
-    <div class="container">
+<body style="background-color: #7ED7C1;">
+    <div class="container d-flex pt-5 justify-content-center">
         <img src="https://www.trendence.it/wp-content/uploads/2019/10/Framework-Laravel.jpg" alt="image laravel">
     </div>
     
